@@ -1,0 +1,72 @@
+body{
+    font-family: Garamond, serif;
+    text-align: center;
+    background-color: #FBF5DD;
+}
+
+a:link{
+    background-color: #FBF5DD;
+}
+
+a:hover{
+    background-color: #E7E1B1;
+}
+
+.title{
+    color: #0D530E;
+    font-size: 100px;
+}
+
+.no-dot-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-ul{
+    font-size: 25px;
+    color: #0D530E;
+    font-weight: bold;
+}
+
+.recipe-list{
+    display: block;
+    background-color: inherit;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border-color: #306D29;
+    border-style: dashed;
+    border-radius: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-menu,.img-menu{
+    display: block;
+    background-color: #FBF5DD;
+    border-radius: 0 0 10px 10px;
+    border-color: #306D29;
+    border-style: dashed;
+    padding: 8px;
+}
+
+.img-menu{
+    padding: 0;
+    object-fit: fill;
+    width: 294px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    
+}
+
+
+/* color pallete
+#FBF5DD
+#E7E1B1
+#306D29
+#0D530E */

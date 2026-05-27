@@ -2,18 +2,40 @@
 <html lang="en">
      <head>
           <meta charset="UTF-8" />
+          <link rel="stylesheet" href="style.css" />
           <meta
                name="viewport"
                content="width=device-width, initial-scale=1.0" />
           <title>Odin Recipe</title>
      </head>
      <body>
-          <h1>Odin Recipes</h1>
+          <h1 class="title">Odin Recipes</h1>
 
-          <ul>
-               <li><a href="recipes/shoyu-chicken.html">Shouyu Chicken</a></li>
-               <li><a href="recipes/smooth-sweet-tea.html">Smooth Sweet Tea</a></li>
-               <li><a href="recipes/greek-pasta-salad.html">Greek Pasta Salad</a></li>
+          <ul class="recipe-ul no-dot-list">
+               <a class="recipe-list" href="recipes/shoyu-chicken.html">
+                    <img
+                         src="images/shoyuchicken.webp"
+                         alt=""
+                         srcset=""
+                         class="img-menu" />
+                    <li class="list-menu">Shoyu Chicken</li>
+               </a>
+               <a class="recipe-list" href="recipes/smooth-sweet-tea.html">
+                    <img
+                         src="images/smooth-sweet-tea.webp"
+                         alt=""
+                         srcset=""
+                         class="img-menu" />
+                    <li class="list-menu">Smooth Sweet Tea</li>
+               </a>
+               <a class="recipe-list" href="recipes/greek-pasta-salad.html">
+                    <img
+                         src="images/greek-pasta-salad.webp"
+                         alt=""
+                         srcset=""
+                         class="img-menu" />
+                    <li class="list-menu">Greek Pasta Salad</li>
+               </a>
           </ul>
      </body>
 </html>
